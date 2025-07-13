@@ -57,8 +57,10 @@ img {
     align-items: center;
     gap: 40px;
 }
-.profile-stats{
+.profile-stats-list{
     display: flex;
-    align-items: center;
     gap: 40px;
+    margin: 20px;
+    list-style: none;
+    padding: 0;
 }
