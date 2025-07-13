@@ -24,6 +24,13 @@ img {
 }
 
 /* Profile Container*/
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .profile{
     display: flex;
     align-items: center;
@@ -69,7 +76,26 @@ img {
 
 
 
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+    max-width: 750px;
 
+}
+.gallery-item{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 1 / 2;
+}
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
 
 .loader-container{
     display: flex;
@@ -90,3 +116,5 @@ img {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+/* End of Main Section */
