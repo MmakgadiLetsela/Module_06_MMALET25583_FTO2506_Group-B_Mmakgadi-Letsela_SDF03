@@ -1,7 +1,7 @@
 /* Base Styles */
 
 :root {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 *,
@@ -20,4 +20,45 @@ body {
 
 img {
     display: block;
+
+}
+
+/* Profile Container*/
+.profile{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 40px
+}
+
+.profile-image {
+    width: 250px;
+    height:250px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+
+ .profile-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 10px solid rgb(12, 154, 138);
+ }
+    
+.profile-user-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.profile-user-settings{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.profile-stats{
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
